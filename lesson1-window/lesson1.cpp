@@ -101,26 +101,20 @@ void draw()
 }
 int main() {
 
+	initWindow();
+	printVersion();
 
-		initWindow();
+	glEnable( GL_DEPTH_TEST );
+	glDepthFunc( GL_LESS );
 
-		printVersion();
+	initBuffer();
+	initArrayBuffer();
+	processPipline();
 
+	while ( !glfwWindowShouldClose( window ) ) {
+		draw();
+	}
 
-		glEnable( GL_DEPTH_TEST );
-		glDepthFunc( GL_LESS );
-
-
-		initBuffer();
-		initArrayBuffer();
-
-		processPipline();
-
-		while ( !glfwWindowShouldClose( window ) ) {
-			draw();
-		}
-
-
-		glfwTerminate();
-		return 0;
+	glfwTerminate();
+	return 0;
 }
