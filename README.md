@@ -1,6 +1,6 @@
 # learningopengl4.1
 The learning is build on OSX with OpenGl 4.1.
-IDE Eclipse use on the project.
+IDE Eclipse is used on the project.
 
 Lesson 1: 
 + Create window context.
