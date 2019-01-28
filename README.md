@@ -12,3 +12,8 @@ Lesson 2:
 + Print fps.
 + Read string from glsl to compile.
 + Interplolate color on triangle.
+
+Lesson 3:
++ Add project matrix, view matrix to vertex shader.
++ Control camera.
++ Tranform model.
