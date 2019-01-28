@@ -1,6 +1,6 @@
 BIN = lesson1
 CC = g++
-FLAGS = -std=c++11 -DAPPLE -Wall -pedantic -Wextra -Werror
+FLAGS = -DAPPLE -std=c++11 -DAPPLE -Wall -pedantic -Wextra -Werror
 INC = -I ../lib/include -I/sw/include -I/usr/local/include
 LIB_PATH = ../lib/osx/
 LOC_LIB = 

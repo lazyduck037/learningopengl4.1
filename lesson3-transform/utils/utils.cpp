@@ -1,7 +1,9 @@
 #include "utils.h"
 #include <time.h>
+#include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+
 #define GL_LOG_FILE "gl.log"
 #define MAX_SHADER_LENGTH 262144
 
@@ -145,7 +147,8 @@ bool parse_file_into_str( const char *filename, char *shader_str, int max_len )
 	char *file_name = (char *) malloc(100*sizeof(char));
 	getcwd(file_name,100);
 	strcat(file_name,filename);
-	printf("\n%s\n",file_name);
+	printf("\n %s \n",file_name);
+
 	FILE *file = fopen( file_name, "r" );
 	if ( !file )
 	{
