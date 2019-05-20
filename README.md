@@ -17,3 +17,9 @@ Lesson 3:
 + Add project matrix, view matrix to vertex shader.
 + Control camera.
 + Tranform model.
+
+Lesson 4:
++ Rotation model with quaternion
+
+Lesson 5:
++ PickRay, detect intersection, key control, mouse control
