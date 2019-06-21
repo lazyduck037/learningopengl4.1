@@ -23,3 +23,7 @@ Lesson 4:
 
 Lesson 5:
 + PickRay, detect intersection, key control, mouse control
+
+Lesson 6:
++ Phong light
++ Using cross product to get normal vertice, dot product to get factor color.
